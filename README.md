@@ -21,6 +21,7 @@ python runPerms.py sumstat_examples/body_HEIGHTz.sumstats.txt 0 1
 The input file formats look like:
 
 # <rsnum> <chromosome> <position> <effect_allele> <alt_allele> <ancestral_allele> <effect_allele_frequency> <beta> <INFO> <block_number> <pval> 
+  
 rs28863004 1 526736 C G G 0.993967 -0.00127255 0.396081 0 7.7E-01
 rs78497331 1 533198 C T C 0.998983 0.0294703 0.532402 0 5.3E-01
 rs576404767 1 544584 C T C 0.99811 0.0214212 0.492517 0 4.4E-01
