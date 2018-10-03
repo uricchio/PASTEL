@@ -2,22 +2,22 @@
 
 You can install our software by running:
 
+```
 python setup.py install
-
+```
 If you don't have admin access on the machine you can do:
-
+```
 python setup.py install --user
-
-The software assumes you have numpy installed.
-
-I've also attached a sample script and a couple sample data files.  The script is called "runPerms.py", and can be run with:
-
+```
+The software assumes you have numpy installed. The script called "runPerms.py" can be run as:
+```
 python runPerms.py <input_summary_stat_file> <lower frequency threshold> <upper frequency threshold>
-
+```
 For example, to run it on the GIANT height test file included here while using all alleles, the command would be:
 
+```
 python runPerms.py sumstat_examples/body_HEIGHTz.sumstats.txt 0 1
-
+```
 The input file format is white space delimited and looks like:
  
 ```
